@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/bgg">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bgg">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/pelabuhan"
+            android:layout_gravity="center_horizontal|top"
+            style="@style/Base.DialogWindowTitle.AppCompat" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView1"
+            android:background="@drawable/pesawat"
+            android:layout_gravity="right|top"
+            style="@style/Base.DialogWindowTitle.AppCompat" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/hotel"
+            android:layout_gravity="left|center_vertical"
+            style="@style/Base.DialogWindowTitle.AppCompat" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/bus"
+            android:layout_gravity="center"
+            style="@style/Base.AlertDialog.AppCompat" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/gas"
+            style="@style/Base.DialogWindowTitle.AppCompat"
+            android:layout_gravity="left|top" />
+
+    </FrameLayout>
+
+</LinearLayout>

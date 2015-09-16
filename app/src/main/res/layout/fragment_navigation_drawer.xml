@@ -1,0 +1,15 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:choiceMode="multipleChoice"
+    android:divider="@android:color/transparent" android:dividerHeight="0dp"
+    android:background="#543eff" tools:context=".NavigationDrawerFragment"
+    android:nestedScrollingEnabled="false"
+    android:theme="@android:style/ButtonBar"
+    android:paddingTop="150dp"
+    style="@android:style/Animation"
+    android:smoothScrollbar="true"
+    android:textAlignment="center"
+    android:touchscreenBlocksFocus="true"
+    android:cacheColorHint="#040404" />
+
+
