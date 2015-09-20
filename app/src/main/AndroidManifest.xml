@@ -59,11 +59,28 @@
             android:name=".maps_banda"
             android:label="@string/title_activity_maps_banda" >
         </activity>
-
-
+        <activity android:name=".MainActivity" >
+        </activity>
         <activity
-            android:name=".MainActivity">
-            </activity>
+            android:name=".maps_daus"
+            android:label="@string/title_activity_maps_daus" >
+        </activity>
+        <activity
+            android:name=".maps_sieitek"
+            android:label="@string/title_activity_maps_sieitek" >
+        </activity>
+        <activity
+            android:name=".my_location"
+            android:label="@string/title_activity_my_location" >
+        </activity>
+        <activity
+            android:name=".maps_hasan"
+            android:label="@string/title_activity_maps_hasan" >
+        </activity>
+        <activity
+            android:name=".maps_razali"
+            android:label="@string/title_activity_maps_razali" >
+        </activity>
     </application>
 
 </manifest>

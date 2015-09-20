@@ -22,6 +22,13 @@
     <string name="title_activity_maps_banda">maps_banda</string>
     <string name="title_activity_splass">Splass</string>
     <string name="title_activity_splas_s">splas_s</string>
+    <string name="title_activity_maps_kuliner">maps_kuliner</string>
+    <string name="title_activity_list_kuliner">list_kuliner</string>
+    <string name="title_activity_maps_daus">maps_daus</string>
+    <string name="title_activity_maps_sieitek">maps_sieitek</string>
+    <string name="title_activity_my_location">my_location</string>
+    <string name="title_activity_maps_hasan">maps_hasan</string>
+    <string name="title_activity_maps_razali">maps_razali</string>
 
 
 
