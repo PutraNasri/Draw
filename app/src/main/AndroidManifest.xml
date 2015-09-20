@@ -66,10 +66,6 @@
             android:label="@string/title_activity_maps_daus" >
         </activity>
         <activity
-            android:name=".maps_sieitek"
-            android:label="@string/title_activity_maps_sieitek" >
-        </activity>
-        <activity
             android:name=".my_location"
             android:label="@string/title_activity_my_location" >
         </activity>
@@ -80,6 +76,10 @@
         <activity
             android:name=".maps_razali"
             android:label="@string/title_activity_maps_razali" >
+        </activity>
+        <activity
+            android:name=".maps_bireun"
+            android:label="@string/title_activity_maps_bireun" >
         </activity>
     </application>
 
