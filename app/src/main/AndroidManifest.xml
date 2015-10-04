@@ -30,7 +30,7 @@
         <!-- Google API Key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyA-m0ctXlYJzf40AwKZCLmvBlb3rmxxO9I" />
+            android:value="AIzaSyCQ-xO4ySkLeJSCzsZKIYTz0Nnt3xQpVuU" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -80,6 +80,58 @@
         <activity
             android:name=".maps_bireun"
             android:label="@string/title_activity_maps_bireun" >
+        </activity>
+        <activity
+            android:name=".list_lhokseumawe"
+            android:label="@string/title_activity_list_lhokseumawe" >
+        </activity>
+        <activity
+            android:name=".list_acehselatan"
+            android:label="@string/title_activity_list_acehselatan" >
+        </activity>
+        <activity
+            android:name=".list_acehbesar"
+            android:label="@string/title_activity_list_acehbesar" >
+        </activity>
+        <activity
+            android:name=".list_acehtengah"
+            android:label="@string/title_activity_list_acehtengah" >
+        </activity>
+        <activity
+            android:name=".info_daus"
+            android:label="@string/title_activity_info_daus" >
+        </activity>
+        <activity
+            android:name=".info_hasan"
+            android:label="@string/title_activity_info_hasan" >
+        </activity>
+        <activity
+            android:name=".info_razali"
+            android:label="@string/title_activity_info_razali" >
+        </activity>
+        <activity
+            android:name=".info_bireun"
+            android:label="@string/title_activity_info_bireun" >
+        </activity>
+        <activity
+            android:name=".maps_transport"
+            android:label="@string/title_activity_maps_transport" >
+        </activity>
+        <activity
+            android:name=".maps_hotel"
+            android:label="@string/title_activity_maps_hotel" >
+        </activity>
+        <activity
+            android:name=".maps_police"
+            android:label="@string/title_activity_maps_police" >
+        </activity>
+        <activity
+            android:name=".maps_bank"
+            android:label="@string/title_activity_maps_bank" >
+        </activity>
+        <activity
+            android:name=".maps_oil"
+            android:label="@string/title_activity_maps_oil" >
         </activity>
     </application>
 

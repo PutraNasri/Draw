@@ -54,6 +54,7 @@ private ActionBarDrawerToggle actionBarDrawerToggle;
                 objFragment = new layout3_Fragment();
                 break;
 
+
         }
 
         // update the main content by replacing fragments

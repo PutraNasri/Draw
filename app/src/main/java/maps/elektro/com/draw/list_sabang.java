@@ -34,7 +34,7 @@ public class list_sabang extends Activity {
 
 
     ArrayAdapter<String> adapter;
-    String[] listt={"Tugu Nol KM", "Iboih Sabang", "Gunung Berapi Jaboi", "Pantai Sumur Tiga", "Casanemo", "Benteng Jepang", "Pantai Anoi Itam", "Pantai gapang", "Sabang Fair", "Danau Laut Tawar"};
+    String[] listt={"Tugu Nol KM", "Iboih Sabang", "Gunung Berapi Jaboi", "Pantai Sumur Tiga", "Casanemo", "Benteng Jepang", "Pantai Anoi Itam", "Pantai gapang", "Sabang Fair"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

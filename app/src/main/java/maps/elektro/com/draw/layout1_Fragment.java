@@ -35,26 +35,64 @@ public class layout1_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         rootview = inflater.inflate(R.layout.layout1, container, false);
-        Button d = (Button) rootview.findViewById(R.id.button3);
-        Button c = (Button) rootview.findViewById(R.id.button);
-        Button b = (Button) rootview.findViewById(R.id.button1);
-        b.setOnClickListener(new View.OnClickListener() {
+        Button a = (Button) rootview.findViewById(R.id.button1);
+        Button b = (Button) rootview.findViewById(R.id.button2);
+        Button c = (Button) rootview.findViewById(R.id.button3);
+        Button d = (Button) rootview.findViewById(R.id.button4);
+        Button e = (Button) rootview.findViewById(R.id.button5);
+        Button f = (Button) rootview.findViewById(R.id.button6);
+        Button g = (Button) rootview.findViewById(R.id.button7);
+
+
+
+
+        a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), list_banda.class);
-                startActivity(intent);            }
+                startActivity(intent);
+            }
         });
-        c.setOnClickListener(new View.OnClickListener() {
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), list_sabang.class);
                 startActivity(intent);
             }
         });
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), list_lhokseumawe.class);
+                startActivity(intent);
+            }
+        });
         d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getActivity(), list_acehselatan.class);
+                startActivity(intent);
+            }
+        });
+        e.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), list_acehbesar.class);
+                startActivity(intent);
+            }
+        });
+        f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), list_acehtengah.class);
+                startActivity(intent);
+            }
+        });
+        g.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), my_location.class);
+                startActivity(intent);
             }
         });
 

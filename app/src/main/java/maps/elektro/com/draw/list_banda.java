@@ -34,7 +34,7 @@ public class list_banda extends Activity {
 
 
     ArrayAdapter<String> adapter;
-    String[] listt={"Lampuuk", "Pasir Putih", "Lhouk mata ie", "Pantai ulee lheue", "Waterboom ulee lheue", "Mataie Hillside", "Pantai Jantang", "Brayeung Leupung", "Bukit Lamreh"};
+    String[] listt={"Pasir Putih", "Lhouk mata ie", "Pantai ulee lheue", "Waterboom ulee lheue"};
 
 
 

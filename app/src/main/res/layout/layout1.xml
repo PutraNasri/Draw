@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/cropp"
+        android:background="@drawable/drop"
         >
 
         <Button
@@ -36,6 +36,15 @@
             android:textColor="#000000"
             android:layout_marginRight="22dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="WET WET ACEH"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp" />
+
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="40dp"
@@ -45,7 +54,8 @@
             android:background="@drawable/location"
             android:layout_marginRight="23dp"
             android:textColor="#000000"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="5dp"
+            android:onClick="onClick" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -84,7 +94,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:text="SABANG"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
@@ -118,7 +128,8 @@
                 android:background="@drawable/tt1"
                 android:layout_marginTop="5dp"
                 android:textColor="@android:color/white"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:onClick="onClick" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
@@ -130,7 +141,8 @@
                 android:background="@drawable/acehb1"
                 android:layout_marginTop="5dp"
                 android:textColor="@android:color/white"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:onClick="onClick" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
@@ -142,7 +154,8 @@
                 android:background="@drawable/aceht1"
                 android:layout_marginTop="5dp"
                 android:textColor="@android:color/white"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:onClick="onClick" />
 
 
 

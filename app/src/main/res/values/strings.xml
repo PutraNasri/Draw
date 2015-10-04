@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menu</string>
+    <string name="app_name">WET-WET ACEH</string>
 
     <string name="title_section1">Wisata</string>
     <string name="title_section2">Kuliner</string>
@@ -30,6 +30,19 @@
     <string name="title_activity_maps_hasan">maps_hasan</string>
     <string name="title_activity_maps_razali">maps_razali</string>
     <string name="title_activity_maps_bireun">maps_bireun</string>
+    <string name="title_activity_list_lhokseumawe">list_lhokseumawe</string>
+    <string name="title_activity_list_acehselatan">list_acehselatan</string>
+    <string name="title_activity_list_acehbesar">list_acehbesar</string>
+    <string name="title_activity_list_acehtengah">list_acehtengah</string>
+    <string name="title_activity_info_daus">info_daus</string>
+    <string name="title_activity_info_hasan">info_hasan</string>
+    <string name="title_activity_info_razali">info_razali</string>
+    <string name="title_activity_info_bireun">info_bireun</string>
+    <string name="title_activity_maps_transport">maps_transport</string>
+    <string name="title_activity_maps_hotel">maps_hotel</string>
+    <string name="title_activity_maps_police">maps_police</string>
+    <string name="title_activity_maps_bank">maps_bank</string>
+    <string name="title_activity_maps_oil">maps_oil</string>
 
 
 

@@ -6,52 +6,62 @@
     android:background="@drawable/bgg">
 
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/bgg">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bar" />
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView3"
-            android:background="@drawable/pelabuhan"
-            android:layout_gravity="center_horizontal|top"
-            style="@style/Base.DialogWindowTitle.AppCompat" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TRANSPORT"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:textColor="#000000" />
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView1"
-            android:background="@drawable/pesawat"
-            android:layout_gravity="right|top"
-            style="@style/Base.DialogWindowTitle.AppCompat" />
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView4"
-            android:background="@drawable/hotel"
-            android:layout_gravity="left|center_vertical"
-            style="@style/Base.DialogWindowTitle.AppCompat" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HOTEL"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:textColor="#000000" />
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView5"
-            android:background="@drawable/bus"
-            android:layout_gravity="center"
-            style="@style/Base.AlertDialog.AppCompat" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="POLICE"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:textColor="#000000" />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView2"
-            android:src="@drawable/gas"
-            style="@style/Base.DialogWindowTitle.AppCompat"
-            android:layout_gravity="left|top" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BANK"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:textColor="#000000" />
 
-    </FrameLayout>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OIL"
+        android:id="@+id/button12"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:textColor="#000000" />
 
 </LinearLayout>

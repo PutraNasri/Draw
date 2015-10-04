@@ -2,6 +2,7 @@ package maps.elektro.com.draw;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class maps_daus extends Activity implements OnMapReadyCallback {
+
     GoogleMap gMaps;
     String nama;
     TextView namaP;
@@ -31,8 +33,9 @@ public class maps_daus extends Activity implements OnMapReadyCallback {
         setContentView(R.layout.activity_maps_daus);
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.maps);
+
         mapFragment.getMapAsync(this);
-        gMaps.setMyLocationEnabled(true);
+
         try {
             initializeMaps();
             gMaps.addMarker(new MarkerOptions()
@@ -40,7 +43,7 @@ public class maps_daus extends Activity implements OnMapReadyCallback {
                     .position(new LatLng(5.484702, 95.227189))
                     .visible(true)
                     .title("Nasi Goreng Daus"));
-
+            gMaps.setMyLocationEnabled(true);
             CameraPosition cameraPosition = new CameraPosition.Builder().target(new LatLng(5.484702, 95.227189)).zoom(10).build();
             gMaps.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
             gMaps.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition), 2000, null);
@@ -50,10 +53,7 @@ public class maps_daus extends Activity implements OnMapReadyCallback {
     {
         gMaps.setMapType(GoogleMap.MAP_TYPE_NORMAL);
     }
-    public void sat(View view)
-    {
-        gMaps.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-    }
+
 
 
         @Override
