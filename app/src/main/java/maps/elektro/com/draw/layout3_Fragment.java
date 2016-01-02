@@ -27,48 +27,8 @@ public class layout3_Fragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        rootview = inflater.inflate(R.layout.layout3, container, false);
-        Button a = (Button) rootview.findViewById(R.id.button1);
-        Button b = (Button) rootview.findViewById(R.id.button2);
-        Button c = (Button) rootview.findViewById(R.id.button3);
-        Button d = (Button) rootview.findViewById(R.id.button4);
-        Button e = (Button) rootview.findViewById(R.id.button5);
-        a.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), maps_transport.class);
-                startActivity(intent);
-            }
-        });
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), maps_hotel.class);
-                startActivity(intent);
-            }
-        });
-        c.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), maps_police.class);
-                startActivity(intent);
-            }
-        });
-        d.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), maps_bank.class);
-                startActivity(intent);
-            }
-        });
+        rootview = inflater.inflate(R.layout.layout4, container, false);
 
-        e.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), maps_oil.class);
-                startActivity(intent);
-            }
-        });
         return rootview;
 
     }

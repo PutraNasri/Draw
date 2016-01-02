@@ -39,9 +39,9 @@ public class maps_hasan extends Activity implements OnMapReadyCallback {
             initializeMaps();
             gMaps.addMarker(new MarkerOptions()
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.wisataa))
-                    .position(new LatLng(5.484702, 95.227189))
+                    .position(new LatLng(5.589491,95.361091))
                     .visible(true)
-                    .title("Nasi Goreng Daus"));
+                    .title("Warung Hasan"));
             gMaps.setMyLocationEnabled(true);
             CameraPosition cameraPosition = new CameraPosition.Builder().target(new LatLng(5.484702, 95.227189)).zoom(10).build();
             gMaps.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));

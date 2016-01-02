@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:choiceMode="multipleChoice"
     android:divider="@android:color/transparent"
-    android:background="@drawable/bgg" tools:context=".NavigationDrawerFragment"
+    tools:context=".NavigationDrawerFragment"
     android:nestedScrollingEnabled="false"
     android:theme="@android:style/ButtonBar"
     android:paddingTop="150dp"

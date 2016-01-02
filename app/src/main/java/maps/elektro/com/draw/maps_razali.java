@@ -39,9 +39,9 @@ public class maps_razali extends Activity implements OnMapReadyCallback {
             initializeMaps();
             gMaps.addMarker(new MarkerOptions()
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.wisataa))
-                    .position(new LatLng(5.484702, 95.227189))
+                    .position(new LatLng(5.558491,95.321287))
                     .visible(true)
-                    .title("Nasi Goreng Daus"));
+                    .title("Mie Razali"));
             gMaps.setMyLocationEnabled(true);
             CameraPosition cameraPosition = new CameraPosition.Builder().target(new LatLng(5.484702, 95.227189)).zoom(10).build();
             gMaps.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));

@@ -51,9 +51,14 @@ private ActionBarDrawerToggle actionBarDrawerToggle;
                 objFragment = new layout2_Fragment();
                 break;
             case 2:
+                objFragment = new layout4_Fragment();
+                break;
+            case 3:
                 objFragment = new layout3_Fragment();
                 break;
-
+            case 4:
+                objFragment = new layout5_Fragment();
+                break;
 
         }
 
@@ -77,6 +82,9 @@ private ActionBarDrawerToggle actionBarDrawerToggle;
                 break;
             case 4:
                 mTitle = getString(R.string.title_section4);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
                 break;
         }
     }

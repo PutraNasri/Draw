@@ -42,6 +42,7 @@ public class layout1_Fragment extends Fragment {
         Button e = (Button) rootview.findViewById(R.id.button5);
         Button f = (Button) rootview.findViewById(R.id.button6);
         Button g = (Button) rootview.findViewById(R.id.button7);
+        Button h = (Button) rootview.findViewById(R.id.button8);
 
 
 
@@ -92,6 +93,13 @@ public class layout1_Fragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), my_location.class);
+                startActivity(intent);
+            }
+        });
+        h.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Lbs.class);
                 startActivity(intent);
             }
         });

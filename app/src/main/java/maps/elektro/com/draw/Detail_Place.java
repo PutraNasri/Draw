@@ -206,7 +206,7 @@ public class Detail_Place extends Activity {
             infoPlace.setText("  Sebuah tempat festival yang akan diadakan Aneka Lomba Seni Budaya Aceh Pameran Kreatifitas Daerah" +
                     "Pawai Budaya Panggung Hiburan Rakyat Prosesi Ulang Tahun Kota Sabang ");
             ImageView imageView = (ImageView) findViewById(R.id.image_View2);
-            imageView.setImageResource(R.drawable.gunungg);
+            imageView.setImageResource(R.drawable.sabangfair);
 
 
         } else if (place.equalsIgnoreCase("Pantan Terong, Takengon")) {
@@ -263,7 +263,7 @@ public class Detail_Place extends Activity {
                     "telaga biru menjadi kombinasi yang memberikan efek relaksasi ketika berada di kawasan Air Terjun Suhom, Kecamatan Lhoong, " +
                     "Kabupaten Aceh Besar, Provinsi Aceh. Kawasan ini menjadi alternatif wisata bahari yang sudah umum di Bumi Serambi Mekkah.");
             ImageView imageView = (ImageView) findViewById(R.id.image_View2);
-            imageView.setImageResource(R.drawable.lhong);
+            imageView.setImageResource(R.drawable.airterjunsuhom);
 
 
         } else if (place.equalsIgnoreCase("Brayeung Leupung")) {
@@ -325,5 +325,7 @@ public class Detail_Place extends Activity {
         Intent intent= new Intent(getApplicationContext(),maps_banda.class);
         intent.putExtra("nama", nama);
         startActivity(intent);
+
     }
+
 }

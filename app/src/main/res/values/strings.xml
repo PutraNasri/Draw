@@ -5,6 +5,7 @@
     <string name="title_section2">Kuliner</string>
     <string name="title_section3">Fasilitas</string>
     <string name="title_section4">About</string>
+    <string name="title_section5">Login Admin</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -43,7 +44,6 @@
     <string name="title_activity_maps_police">maps_police</string>
     <string name="title_activity_maps_bank">maps_bank</string>
     <string name="title_activity_maps_oil">maps_oil</string>
-
 
 
 </resources>

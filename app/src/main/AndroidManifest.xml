@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="maps.elektro.com.draw" >
+    package="maps.elektro.com.draw">
 
     <permission android:name="maps.elektro.com.draw.permission.MAPS_RECEIVE" />
 
@@ -16,10 +16,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".splas_s"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,109 +30,89 @@
         <!-- Google API Key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCQ-xO4ySkLeJSCzsZKIYTz0Nnt3xQpVuU" />
+            android:value="AIzaSyA-m0ctXlYJzf40AwKZCLmvBlb3rmxxO9I" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity
             android:name=".lyout1"
-            android:label="@string/title_activity_lyout1" >
-        </activity>
+            android:label="@string/title_activity_lyout1" />
         <activity
             android:name=".Layout1_Fragment"
-            android:label="@string/title_activity_layout1" >
-        </activity>
+            android:label="@string/title_activity_layout1" />
         <activity
             android:name=".list_banda"
-            android:label="@string/title_activity_list_banda" >
-        </activity>
+            android:label="@string/title_activity_list_banda" />
         <activity
             android:name=".Detail_Place"
-            android:label="@string/title_activity_detail__place" >
-        </activity>
+            android:label="@string/title_activity_detail__place" />
         <activity
             android:name=".list_sabang"
-            android:label="@string/title_activity_list_sabang" >
-        </activity>
+            android:label="@string/title_activity_list_sabang" />
         <activity
             android:name=".maps_banda"
-            android:label="@string/title_activity_maps_banda" >
-        </activity>
-        <activity android:name=".MainActivity" >
-        </activity>
+            android:label="@string/title_activity_maps_banda" />
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".maps_daus"
-            android:label="@string/title_activity_maps_daus" >
-        </activity>
+            android:label="@string/title_activity_maps_daus" />
         <activity
             android:name=".my_location"
-            android:label="@string/title_activity_my_location" >
-        </activity>
+            android:label="@string/title_activity_my_location" />
         <activity
             android:name=".maps_hasan"
-            android:label="@string/title_activity_maps_hasan" >
-        </activity>
+            android:label="@string/title_activity_maps_hasan" />
         <activity
             android:name=".maps_razali"
-            android:label="@string/title_activity_maps_razali" >
-        </activity>
+            android:label="@string/title_activity_maps_razali" />
         <activity
             android:name=".maps_bireun"
-            android:label="@string/title_activity_maps_bireun" >
-        </activity>
+            android:label="@string/title_activity_maps_bireun" />
         <activity
             android:name=".list_lhokseumawe"
-            android:label="@string/title_activity_list_lhokseumawe" >
-        </activity>
+            android:label="@string/title_activity_list_lhokseumawe" />
         <activity
             android:name=".list_acehselatan"
-            android:label="@string/title_activity_list_acehselatan" >
-        </activity>
+            android:label="@string/title_activity_list_acehselatan" />
         <activity
             android:name=".list_acehbesar"
-            android:label="@string/title_activity_list_acehbesar" >
-        </activity>
+            android:label="@string/title_activity_list_acehbesar" />
         <activity
             android:name=".list_acehtengah"
-            android:label="@string/title_activity_list_acehtengah" >
-        </activity>
+            android:label="@string/title_activity_list_acehtengah" />
         <activity
             android:name=".info_daus"
-            android:label="@string/title_activity_info_daus" >
-        </activity>
+            android:label="@string/title_activity_info_daus" />
         <activity
             android:name=".info_hasan"
-            android:label="@string/title_activity_info_hasan" >
-        </activity>
+            android:label="@string/title_activity_info_hasan" />
         <activity
             android:name=".info_razali"
-            android:label="@string/title_activity_info_razali" >
-        </activity>
+            android:label="@string/title_activity_info_razali" />
         <activity
             android:name=".info_bireun"
-            android:label="@string/title_activity_info_bireun" >
-        </activity>
+            android:label="@string/title_activity_info_bireun" />
         <activity
             android:name=".maps_transport"
-            android:label="@string/title_activity_maps_transport" >
-        </activity>
+            android:label="@string/title_activity_maps_transport" />
         <activity
             android:name=".maps_hotel"
-            android:label="@string/title_activity_maps_hotel" >
-        </activity>
+            android:label="@string/title_activity_maps_hotel" />
         <activity
             android:name=".maps_police"
-            android:label="@string/title_activity_maps_police" >
-        </activity>
+            android:label="@string/title_activity_maps_police" />
         <activity
             android:name=".maps_bank"
-            android:label="@string/title_activity_maps_bank" >
-        </activity>
+            android:label="@string/title_activity_maps_bank" />
         <activity
             android:name=".maps_oil"
-            android:label="@string/title_activity_maps_oil" >
-        </activity>
+            android:label="@string/title_activity_maps_oil" />
+        <activity android:name=".Lbs" />
+        <activity android:name=".MenuAdmin" />
+        <activity android:name=".listcontent" />
+        <activity android:name=".Detail_Content" />
+        <activity android:name=".NewWisata"></activity>
     </application>
 
 </manifest>

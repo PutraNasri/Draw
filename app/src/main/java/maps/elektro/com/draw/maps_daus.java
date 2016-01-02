@@ -40,7 +40,7 @@ public class maps_daus extends Activity implements OnMapReadyCallback {
             initializeMaps();
             gMaps.addMarker(new MarkerOptions()
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.wisataa))
-                    .position(new LatLng(5.484702, 95.227189))
+                    .position(new LatLng(5.559382,95.321629))
                     .visible(true)
                     .title("Nasi Goreng Daus"));
             gMaps.setMyLocationEnabled(true);
